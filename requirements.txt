@@ -1,0 +1,9 @@
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Login==0.6.3
+Flask-Bcrypt==1.0.1
+Flask-Mail==0.9.1
+itsdangerous==2.1.2
+mysql-connector-python==8.1.0
+openai==1.76.0
+redis==5.2.1
