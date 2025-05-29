@@ -18,7 +18,7 @@ import redis
 # 初始化 Flask 应用
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key_here'  # 请替换为安全的密钥
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://test_db:yuzaoqian123@122.51.67.113/test_db'  # 替换为您的 MySQL 配置
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://'  # 替换为您的 MySQL 配置
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Redis配置
@@ -39,7 +39,7 @@ app.config['MAIL_SERVER'] = 'smtp.qq.com'  # 替换为您的邮件服务器
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'wmrwkantskddhdmz@qq.com'  # 替换为您的邮箱
-app.config['MAIL_PASSWORD'] = 'vmyshwjnhcrceifd'    # 替换为您的邮箱密码
+app.config['MAIL_PASSWORD'] = 'xxxxxxxx'    # 替换为您的邮箱密码
 
 # 初始化扩展
 from database import db
